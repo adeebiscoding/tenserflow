@@ -1,3 +1,6 @@
 # tenserflow
 
-Food prediction and sports prediction models use funcional API to predict what sport/food the image is. I have fine tuned models from image net (efficientnet) so that they fit better onto the data.
+Both Food Classification and sport identification models use Functional API for model creation
+Both have fine tuned top layers for better fitting
+food classification uses EfficientNEtB0 with top 5 layers trainable
+Sport identification uses EfficientNetB3 with top 8 layers trainable
