@@ -1,13 +1,13 @@
 # tenserflow
 
-##Food CLassification & Sport Identification:
+## Food CLassification & Sport Identification:
 
 models use Functional API
 Fine tuned top layers for better fitting
 food classification uses EfficientNEtB0 with top 5 layers trainable
 Sport identification uses EfficientNetB3 with top 8 layers trainable
 
-##NLP
+## NLP
 
 6 models using Naive Bayes, Deep Learning, and pre trained models to analyze emotion in sentences from a kaggle dataset. 
 Plotted accuracy-loss curves to find out overfitting and added Dropout layer for overfit prevention
