@@ -27,3 +27,4 @@
 * Used `Concatonate` layer to build final model `Model_7`, utilizing the best performing models from the above step, resulting in `Model_7` reaching 86% accuracy on 10% of the dataset and trained on 10% of each batch.
 * Layers used in various models: `Embedding` using universal-sentence-encoder from tf_hub, `Conv1D`, `GlobalMaxPool1D`, `Dense`, and `Bi-LSTMs`.
 * Utilized `tf.data` API, enabling faster data loading.
+* Evaluated model using pandas to find most wrong labeling (high confidence but incorrect label).
