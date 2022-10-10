@@ -1,6 +1,6 @@
 # tenserflow
 
-## Food CLassification & Sport Identification:
+## Image Classification - Food CLassification & Sport Identification:
 
 * models use Functional API
 * Fine tuned top layers for better fitting
